@@ -17,3 +17,5 @@ console.log(fileName);
 		
 //Resources:
 //Travis Build Test: http://stackoverflow.com/a/15734041/1265036
+//Default "npm test", changed to "node ducksauce.js" http://docs.travis-ci.com/user/languages/javascript-with-nodejs/
+//This is just until I have the core down and have actually code to test.
