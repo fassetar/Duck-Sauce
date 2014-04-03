@@ -14,3 +14,5 @@ fs.watch(fileName,{presistent:true, interval: 10},  function (event, filename) {
 	});
 });
 		
+//Resources:
+//Travis Build Test: http://stackoverflow.com/a/15734041/1265036
