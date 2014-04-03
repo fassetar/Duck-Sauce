@@ -1,4 +1,5 @@
 var fs = require("fs");
+//http://stackoverflow.com/a/13543706/1265036
 var fileName = __dirname +'\\Example.txt';
 // fs.readFile(fileName, { encoding: "utf8", flag: 'r'}, function (err, data) {
 			// if (err) throw err;
@@ -11,6 +12,5 @@ fs.watch(fileName,{presistent:true, interval: 10},  function (event, filename) {
 		console.log(data);
 		//fs.close(fileName);
 	});
-
 });
 		
