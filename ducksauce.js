@@ -1,7 +1,23 @@
-var fs = require("fs");
+var http = require('http'),
+    fs = require('fs'), open = require('open');
+
 //http://stackoverflow.com/a/13543706/1265036
 var fileName = __dirname +'\\Example.txt';
 console.log(fileName);
+fs.readFile('./index.html', function (err, html) {
+    if (err) {
+        throw err; 
+    }       
+    http.createServer(function(request, response) {  
+        response.writeHeader(200, {"Content-Type": "text/html"});  
+        response.write(html);  
+        response.end();  
+    }).listen(8000);
+});
+open('http://localhost:8000', function (err) {
+  if (err) throw err;
+  console.log('The user closed the browser');
+});
 // fs.readFile(fileName, { encoding: "utf8", flag: 'r'}, function (err, data) {
 			// if (err) throw err;
 		// console.log(data);

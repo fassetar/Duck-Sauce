@@ -1,0 +1,150 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'mocha',
+1 verbose cli   'grunt',
+1 verbose cli   'grunt-initgit',
+1 verbose cli   'clone',
+1 verbose cli   'https://github.com/saucelabs/grunt-init-sauce.git',
+1 verbose cli   '~/.grunt-init/sauce' ]
+2 info using npm@1.2.17
+3 info using node@v0.10.3
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose read json C:\Users\afassett.FNY-10905\AppData\Roaming\npm\package.json
+6 verbose read json C:\Users\afassett.FNY-10905\AppData\Roaming\npm\package.json
+7 verbose cache add [ 'mocha', null ]
+8 verbose cache add name=undefined spec="mocha" args=["mocha",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'mocha',
+9 verbose parsed url   path: 'mocha',
+9 verbose parsed url   href: 'mocha' }
+10 verbose cache add [ 'grunt', null ]
+11 verbose cache add name=undefined spec="grunt" args=["grunt",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'grunt',
+12 verbose parsed url   path: 'grunt',
+12 verbose parsed url   href: 'grunt' }
+13 verbose cache add [ 'grunt-initgit', null ]
+14 verbose cache add name=undefined spec="grunt-initgit" args=["grunt-initgit",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'grunt-initgit',
+15 verbose parsed url   path: 'grunt-initgit',
+15 verbose parsed url   href: 'grunt-initgit' }
+16 verbose cache add [ 'clone', null ]
+17 verbose cache add name=undefined spec="clone" args=["clone",null]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: 'clone',
+18 verbose parsed url   path: 'clone',
+18 verbose parsed url   href: 'clone' }
+19 verbose cache add [ 'https://github.com/saucelabs/grunt-init-sauce.git', null ]
+20 verbose cache add name=undefined spec="https://github.com/saucelabs/grunt-init-sauce.git" args=["https://github.com/saucelabs/grunt-init-sauce.git",null]
+21 verbose parsed url { protocol: 'https:',
+21 verbose parsed url   slashes: true,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: 'github.com',
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: 'github.com',
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '/saucelabs/grunt-init-sauce.git',
+21 verbose parsed url   path: '/saucelabs/grunt-init-sauce.git',
+21 verbose parsed url   href: 'https://github.com/saucelabs/grunt-init-sauce.git' }
+22 verbose cache add [ '~/.grunt-init/sauce', null ]
+23 verbose cache add name=undefined spec="~/.grunt-init/sauce" args=["~/.grunt-init/sauce",null]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: '~/.grunt-init/sauce',
+24 verbose parsed url   path: '~/.grunt-init/sauce',
+24 verbose parsed url   href: '~/.grunt-init/sauce' }
+25 silly lockFile a619da43-mocha mocha
+26 verbose lock mocha C:\Users\afassett.FNY-10905\AppData\Roaming\npm-cache\a619da43-mocha.lock
+27 silly lockFile 20ff3fd8-grunt grunt
+28 verbose lock grunt C:\Users\afassett.FNY-10905\AppData\Roaming\npm-cache\20ff3fd8-grunt.lock
+29 silly lockFile 5aa26f43-grunt-initgit grunt-initgit
+30 verbose lock grunt-initgit C:\Users\afassett.FNY-10905\AppData\Roaming\npm-cache\5aa26f43-grunt-initgit.lock
+31 silly lockFile 5e007232-clone clone
+32 verbose lock clone C:\Users\afassett.FNY-10905\AppData\Roaming\npm-cache\5e007232-clone.lock
+33 silly lockFile 163fe91e-m-saucelabs-grunt-init-sauce-git https://github.com/saucelabs/grunt-init-sauce.git
+34 verbose lock https://github.com/saucelabs/grunt-init-sauce.git C:\Users\afassett.FNY-10905\AppData\Roaming\npm-cache\163fe91e-m-saucelabs-grunt-init-sauce-git.lock
+35 silly lockFile 642c3466-grunt-init-sauce ~/.grunt-init/sauce
+36 verbose lock ~/.grunt-init/sauce C:\Users\afassett.FNY-10905\AppData\Roaming\npm-cache\642c3466-grunt-init-sauce.lock
+37 silly lockFile a619da43-mocha mocha
+38 silly lockFile a619da43-mocha mocha
+39 silly lockFile 5aa26f43-grunt-initgit grunt-initgit
+40 silly lockFile 5aa26f43-grunt-initgit grunt-initgit
+41 silly lockFile 20ff3fd8-grunt grunt
+42 silly lockFile 20ff3fd8-grunt grunt
+43 silly lockFile 5e007232-clone clone
+44 silly lockFile 5e007232-clone clone
+45 verbose addRemoteTarball [ 'https://github.com/saucelabs/grunt-init-sauce.git', null ]
+46 silly lockFile 642c3466-grunt-init-sauce ~/.grunt-init/sauce
+47 silly lockFile 642c3466-grunt-init-sauce ~/.grunt-init/sauce
+48 verbose addNamed [ 'grunt', '' ]
+49 verbose addNamed [ null, '' ]
+50 silly lockFile 55f1ff24-grunt grunt@
+51 verbose lock grunt@ C:\Users\afassett.FNY-10905\AppData\Roaming\npm-cache\55f1ff24-grunt.lock
+52 verbose addNamed [ 'grunt-initgit', '' ]
+53 verbose addNamed [ null, '' ]
+54 silly lockFile 0159c589-grunt-initgit grunt-initgit@
+55 verbose lock grunt-initgit@ C:\Users\afassett.FNY-10905\AppData\Roaming\npm-cache\0159c589-grunt-initgit.lock
+56 verbose addNamed [ 'clone', '' ]
+57 verbose addNamed [ null, '' ]
+58 silly lockFile d75b8770-clone clone@
+59 verbose lock clone@ C:\Users\afassett.FNY-10905\AppData\Roaming\npm-cache\d75b8770-clone.lock
+60 error addLocal Could not install ~/.grunt-init/sauce
+61 error Error: ENOENT, stat 'C:\Users\afassett.FNY-10905\Documents\GitHub\Duck-Sauce\~\.grunt-init\sauce'
+62 error If you need help, you may report this log at:
+62 error     <http://github.com/isaacs/npm/issues>
+62 error or email it to:
+62 error     <npm-@googlegroups.com>
+63 error System Windows_NT 6.1.7601
+64 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "mocha" "grunt" "grunt-initgit" "clone" "https://github.com/saucelabs/grunt-init-sauce.git" "~/.grunt-init/sauce"
+65 error cwd C:\Users\afassett.FNY-10905\Documents\GitHub\Duck-Sauce
+66 error node -v v0.10.3
+67 error npm -v 1.2.17
+68 error path C:\Users\afassett.FNY-10905\Documents\GitHub\Duck-Sauce\~\.grunt-init\sauce
+69 error code ENOENT
+70 error errno 34
+71 verbose exit [ 34, true ]
