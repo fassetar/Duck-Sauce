@@ -2,8 +2,8 @@ var http = require('http'),
     fs = require('fs'), open = require('open');
 
 //http://stackoverflow.com/a/13543706/1265036
-var fileName = __dirname +'\\Example.txt';
-fs.readFile(__dirname +'/index.html', function (err, html) {
+//var fileName = __dirname +'\\Example.txt';
+fs.readFile(__dirname +'\\index.html', function (err, html) {
     if (err) {
         throw err; 
     }       
@@ -13,10 +13,12 @@ fs.readFile(__dirname +'/index.html', function (err, html) {
         response.end();  
     }).listen(8000);
 });
-open('http://localhost:8000', function (err) {
-  if (err) throw err;
-  console.log('The user closed the browser');
-});
+console.log(__dirname +'/index.html');
+// open('http://localhost:8000', function (err) {
+  // if (err) throw err;
+  // console.log('The user closed the browser');
+// });
+
 // fs.readFile(fileName, { encoding: "utf8", flag: 'r'}, function (err, data) {
 			// if (err) throw err;
 		// console.log(data);
