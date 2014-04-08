@@ -4,7 +4,7 @@ var http = require('http'),
 var index = __dirname +'/index.html';
 //http://stackoverflow.com/a/13543706/1265036
 //var fileName = __dirname +'\\Example.txt';
-fs.existsSync(index, function(exists) {
+fs.exists(index, function(exists) {
     if (exists) {
         // Do something
 		fs.readFile(index, function (err, html) {
