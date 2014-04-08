@@ -3,8 +3,7 @@ var http = require('http'),
 
 //http://stackoverflow.com/a/13543706/1265036
 var fileName = __dirname +'\\Example.txt';
-console.log(fileName);
-fs.readFile('./index.html', function (err, html) {
+fs.readFile(__dirname +'/index.html', function (err, html) {
     if (err) {
         throw err; 
     }       
