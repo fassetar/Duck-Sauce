@@ -1,0 +1,16 @@
+{
+  "name": "ducksauce",
+  "description": "Web Application Tool",
+  "dependencies" : {
+    "open" : "*",
+	"less" : "*"
+  },
+  "version" : "0.1.0",  
+  "author" : "Anthony Fassett <fassetar@gmail.com>",  
+  "keywords" : [
+    "app",    
+	"tool"
+  ],
+  "repository" : "git://github.com/fassetar/ducksauce",
+  "license" : "MIT"
+}
