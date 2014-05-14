@@ -3,7 +3,9 @@
   "description": "Web Application Tool",
   "dependencies" : {
     "open" : "*",
-	"less" : "*"
+	"less" : "*",
+	"grunt" : "*",
+	"grunt-contrib-watch" : "*"
   },
   "version" : "0.1.0",  
   "author" : "Anthony Fassett <fassetar@gmail.com>",  
