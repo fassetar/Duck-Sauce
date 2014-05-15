@@ -1,18 +1,23 @@
 {
   "name": "ducksauce",
   "description": "Web Application Tool",
-  "dependencies" : {
-    "open" : "*",
-	"less" : "*",
-	"grunt" : "*",
-	"grunt-contrib-watch" : "*"
+  "dependencies": {
+    "open": "*",
+    "grunt": "~0.4.5",    
+	"grunt-contrib-less": "*",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-watch": "*"
   },
-  "version" : "0.1.0",  
-  "author" : "Anthony Fassett <fassetar@gmail.com>",  
-  "keywords" : [
-    "app",    
-	"tool"
+  "version": "0.1.0",
+  "author": "Anthony Fassett <fassetar@gmail.com>",
+  "keywords": [
+    "app",
+    "tool"
   ],
-  "repository" : "git://github.com/fassetar/ducksauce",
-  "license" : "MIT"
+  "repository": "git://github.com/fassetar/ducksauce",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
 }
