@@ -3,7 +3,8 @@
   "description": "Web Application Tool",
   "dependencies": {	
 	"watch": "*",
-	"less": "*"  
+	"browserify": "*,
+	"less": "*" 
   },
   "version": "0.1.0",
   "author": "Anthony Fassett <fassetar@gmail.com>",
