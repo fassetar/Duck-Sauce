@@ -3,7 +3,7 @@
   "description": "Web Application Tool",
   "dependencies": {	
 	"watch": "*",
-	"browserify": "*,
+	"browserify": "*",
 	"less": "*" 
   },
   "version": "0.1.0",
