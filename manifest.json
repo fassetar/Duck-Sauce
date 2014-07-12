@@ -1,5 +1,5 @@
 {
-  "name": "DuckSauce WebTool",
+  "name": "DuckSauce-WebTool",
   "version": "0.1",
   "description": "Adding the power of Grunt to Chrome",
   "devtools_page": "console.html",
