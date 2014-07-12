@@ -2,6 +2,7 @@
   "name": "DuckSauce",
   "description": "Web Application Tool",
   "dependencies": {	
+	"watch": "*",
 	"less": "*"  
   },
   "version": "0.1.0",

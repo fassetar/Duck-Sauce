@@ -4,6 +4,6 @@ node_js:
   - "0.10"
   - "0.8"
 install:
-  - npm install open
+  - npm install
 script: 
-  - node ducksauce.js
+  - browersify bundle.js -o test.js
