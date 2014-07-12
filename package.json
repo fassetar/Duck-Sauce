@@ -2,16 +2,16 @@
   "name": "DuckSauce",
   "description": "Web Application Tool",
   "dependencies": {	
-	"less": "*",	
-    "grunt": "~0.4.5"    
+	"less": "*"  
   },
   "version": "0.1.0",
   "author": "Anthony Fassett <fassetar@gmail.com>",
-  "keywords": [
-    "app",
+  "keywords": [   
     "tool"
   ],
-  "repository": "git://github.com/fassetar/ducksauce",
+  "repository": { "type" : "git",
+                  "url": "git://github.com/fassetar/ducksauce" 
+  },
   "license": "MIT",
   "devDependencies": {
     "grunt": "^0.4.5",
