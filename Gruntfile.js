@@ -34,19 +34,19 @@ module.exports = function(grunt) {
     // },
     watch: {
       js: {
-        files: ["C:/Users/Anthony-F/Documents/Visual Studio 2012/Projects/Corey'sCode/Catalog/Scripts/*.js"],
+        files: ["../Scripts/*.js"],
         //tasks: ['concat:js', 'uglify:js'],
         options: {
           livereload: true,
         }
       },
-      // css: {
-        // files: ['less/*.less'],
-        // tasks: ['less:style'],
-        // options: {
-          // livereload: true,
-        // }
-      // }
+       css: {
+         files: ['less/*.less'],
+         tasks: ['less:style'],
+         options: {
+           livereload: true,
+         }
+       }
     }
   });
  
