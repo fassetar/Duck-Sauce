@@ -2,7 +2,7 @@
   "name": "Ducksauce-WebTool",
   "short_name": "Ducksauce",
   "version": "0.1",
-  "description": "Adding the power of Grunt to Chrome",
+  "description": "Adding the power of Grunt to Chrome",  
   "devtools_page": "console.html",
   "manifest_version": 2,
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
