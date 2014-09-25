@@ -1,4 +1,5 @@
 var fs = require('fs');
+//http://stackoverflow.com/a/6960795
 var path ='path';
 fs.readdir(path, function(err, files) {	
     files.filter(function(file) { 		
@@ -10,6 +11,7 @@ fs.readdir(path, function(err, files) {
 	}).forEach(function(file) {	
 			console.log(file);
 			fs.readFile(file, 'utf-8', function(err, contents) { 				
+				console.log(err);
 				inspectFile(contents);				
 			}); 
 		});
