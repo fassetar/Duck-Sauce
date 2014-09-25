@@ -5,4 +5,4 @@ DuckSauce
 This chrome extension will allow web developers to use a lot of the tools available with nodejs without actually installing nodejs or understanding any of the configurations. Compiling less and running JavaScript cleanups from within the chrome devtools. This extension will leverage the workspaces and add tools to allow chrome to be more of an IDE.
 
 
-Must just trying out this [Visual Studio Node Tool](https://nodejstools.codeplex.com/) 
+Must just trying out the [Visual Studio Node Tool](https://nodejstools.codeplex.com/) 
