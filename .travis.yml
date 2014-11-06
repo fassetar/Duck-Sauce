@@ -4,5 +4,3 @@ node_js:
   - "0.10"
 install:
   - npm install --silent
-script: 
-  - browserify bundle.js -o test.js
