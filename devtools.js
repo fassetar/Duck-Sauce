@@ -19,5 +19,6 @@ chrome.devtools.inspectedWindow.onResourceContentCommitted.addListener(function 
     //// keep track of the port and tab id on the background by
     //// sending the inspected windows tab id
     //port.postMessage(['connect', content]);        
+    ///TEST
     chrome.devtools.inspectedWindow.reload();
 });
