@@ -1,6 +1,6 @@
 Ducksauce 
 ==========
-[![Build Status](https://travis-ci.org/fassetar/DuckSauce.svg?branch=master)](https://travis-ci.org/fassetar/DuckSauce)
+[![Build Status](https://travis-ci.org/fassetar/Ducksauce.svg?branch=master)](https://travis-ci.org/fassetar/Ducksauce)
 [![devDependency Status](https://david-dm.org/fassetar/ducksauce/dev-status.svg)](https://david-dm.org/fassetar/ducksauce#info=devDependencies)
 <a href="https://www.gittip.com/fassetar/"><img src="http://img.shields.io/gittip/fassetar.png" alt="Gittip"></a>
 
