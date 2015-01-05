@@ -10,7 +10,7 @@ This chrome extension will allow web developers to use a lot of the tools availa
 
 Notes/Updates
 =============
-> Just look for them on my blog under the label [Ducksauce](http://anthonyfassett.blogspot.com/search/label/Ducksauce) or
+Just look for them on my blog under the label [Ducksauce](http://anthonyfassett.blogspot.com/search/label/Ducksauce) or
 Under [AnthonyFassett.com/apps/ducksauce](http://anthonyfassett.com/apps/Ducksauce)
 
 Release History
