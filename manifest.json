@@ -3,10 +3,16 @@
   "short_name": "Ducksauce",
   "version": "0.1",
   "description": "Adding the power of Grunt to Chrome",  
-  "devtools_page": "console.html",
-  "background": {
-        "scripts": ["background.js"]
-    },  
+  "devtools_page": "devtools.html",
+  "options_page": "panel.html",
+    "background": {
+        "scripts": [ "background.js" ]
+    },
+	 "permissions": [
+		"tabs", 
+		"http://*/*",
+		"https://*/*"
+	],
   "manifest_version": 2,  
   "minimum_chrome_version": "33.0"
 }
